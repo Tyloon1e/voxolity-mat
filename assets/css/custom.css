@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/* HTML ELEMENTS START */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #546e7a;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav.nav-center ul {
+  text-align: center;
+}
+nav.nav-center ul li {
+  display: inline;
+  float: none;
+}
+nav.nav-center ul li a {
+  display: inline-block;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* HTML ELEMENTS END */
+
+/* VOXOLITY COLORS START */
+
+.voxolity {
+  background-color: #1bb4b7;
+}
+
+.voxolity:focus {
+  background-color: #1bb4b7;
+}
+
+.voxolity-text {
+  color: #1bb4b7;
+}
+
+.indicator-item {
+  background-color: #1bb4b7;
+}
+
+/* VOXOLITY COLORS END */
+
+/* PARALLAX START */
+
+.normal-parallax,
+.home-parallax,
+.castle-parallax,
+.skyblock-parallax,
+.kitpvp-parallax {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.normal-parallax {
+  height: 35rem;
+  background-image: url("/assets/img/dirt-texture.jpg");
+}
+
+.home-parallax {
+  height: 40rem;
+  background-image: url("/assets/img/background/lobby-bg.png");
+}
+
+.castle-parallax,
+.skyblock-parallax,
+.kitpvp-parallax {
+  height: 20rem;
+}
+
+.castle-parallax {
+  background-image: url("/assets/img/background/castle-bg.png");
+}
+
+.skyblock-parallax {
+  background-image: url("/assets/img/background/skyblock-bg.png");
+}
+
+.kitpvp-parallax {
+  background-image: url("/assets/img/background/kitpvp-bg.png");
+}
+
+/* PARALLAX END */
+
+/* LOADING ELEMENTS */
+
+.visible {
+  display: block;
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+  opacity: 0;
+}
+
+.fade-in {
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+  animation-fill-mode: inherit;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* GENERAL STYLES START */
+
+.force-center {
+  float: none !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-spacer {
+  margin-top: 5rem;
+}
+
+.bottom-spacer {
+  margin-bottom: 5rem;
+}
+
+.top-border {
+  border-top: 5px solid #1bb4b7;
+}
+
+.bottom-border {
+  border-bottom: 5px solid #1bb4b7;
+}
+
+.top-bottom-border {
+  border-top: 5px solid #1bb4b7;
+  border-bottom: 5px solid #1bb4b7;
+}
+
+/* GENERAL STYLES END */
+
+/* HOME START */
+
+#banner {
+  margin: 2rem 0rem 2rem 0rem;
+  transition: all 0.2s ease-in-out;
+}
+
+#banner:hover {
+  transform: scale(1.025);
+}
+
+#action {
+  margin: 0rem 0rem 4rem 0rem;
+}
+
+.catch-icon {
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+/* HOME END */
+
+/* RULES START */
+
+.rule-bq {
+  border-left: 5px solid #1bb4b7;
+}
+
+.rule-link {
+  transition: all 0.2s ease-in-out;
+}
+
+.rule-link:hover {
+  color: #1bb4b7;
+}
+
+/* RULES END */
+
+/* VOTE START */
+
+.vote-verify {
+  margin-right: 5px;
+}
+
+/* VOTE END */
+
+/* STAFF START */
+
+.avatar-border {
+  border: 2px solid #1bb4b7;
+}
+
+/* STAFF END */
+
+/* FONT AWESOME START */
+
+#discord {
+  transition: all 0.2s ease-in-out;
+}
+
+.discord {
+  background-color: #7289da;
+}
+
+.discord:hover {
+  background-color: #7289da;
+}
+
+.discord:focus {
+  background-color: #7289da;
+}
+
+.fa-youtube-square,
+.fa-facebook-square,
+.fa-twitter-square {
+  margin-right: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.fa-youtube-square:hover,
+.fa-facebook-square:hover,
+.fa-twitter-square:hover {
+  color: #ffffff !important;
+  transition: all 0.2s ease-in-out;
+}
+
+/* FONT AWESOME END */
