@@ -79,6 +79,8 @@ footer ul li {
 .skyblock-parallax,
 .kitpvp-parallax {
   height: 20rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .castle-parallax {
