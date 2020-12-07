@@ -186,11 +186,12 @@ footer ul li {
 }
 
 .rule-link {
+  color: #1bb4b7;
   transition: all 0.2s ease-in-out;
 }
 
 .rule-link:hover {
-  color: #1bb4b7;
+  color: #169698;
 }
 
 /* RULES END */
