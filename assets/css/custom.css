@@ -51,6 +51,10 @@ footer ul li {
   background-color: #1bb4b7;
 }
 
+.voxolity-bq {
+  border-left: 5px solid #1bb4b7;
+}
+
 /* VOXOLITY COLORS END */
 
 /* PARALLAX START */
@@ -180,10 +184,6 @@ footer ul li {
 /* HOME END */
 
 /* RULES START */
-
-.rule-bq {
-  border-left: 5px solid #1bb4b7;
-}
 
 .rule-link {
   color: #1bb4b7;
