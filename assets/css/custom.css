@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat &display=swap");
 
 /* HTML ELEMENTS START */
 
@@ -62,6 +62,7 @@ footer ul li {
 .normal-parallax,
 .home-parallax,
 .castle-parallax,
+.survival-parallax,
 .skyblock-parallax,
 .kitpvp-parallax {
   background-repeat: no-repeat;
@@ -71,7 +72,7 @@ footer ul li {
 
 .normal-parallax {
   height: 35rem;
-  background-image: url("/assets/img/dirt-texture.jpg");
+  background-image: url("/assets/img/dirt-texture.png");
 }
 
 .home-parallax {
@@ -80,6 +81,7 @@ footer ul li {
 }
 
 .castle-parallax,
+.survival-parallax,
 .skyblock-parallax,
 .kitpvp-parallax {
   height: 20rem;
@@ -89,6 +91,10 @@ footer ul li {
 
 .castle-parallax {
   background-image: url("/assets/img/background/castle-bg.png");
+}
+
+.survival-parallax {
+  background-image: url("/assets/img/background/survival-bg.png");
 }
 
 .skyblock-parallax {
@@ -165,7 +171,7 @@ footer ul li {
 /* HOME START */
 
 #banner {
-  margin: 2rem 0rem 2rem 0rem;
+  margin: 2rem 0;
   transition: all 0.2s ease-in-out;
 }
 
@@ -174,11 +180,11 @@ footer ul li {
 }
 
 #action {
-  margin: 0rem 0rem 4rem 0rem;
+  margin: 0 0 4rem;
 }
 
 .catch-icon {
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
 }
 
 /* HOME END */
