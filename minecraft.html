@@ -1,238 +1,285 @@
 <!DOCTYPE html>
 <html lang="da-DK" prefix="og: http://ogp.me/ns#">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="description" content="Dansk Minecraft-server, der byder på lidt af hvert." />
-    <meta name="keywords" content="Voxolity, Minecraft, Server" />
-    <meta name="author" content="Tyloon1e" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Minecraft - Voxolity</title>
+  <meta name="description" content="Dansk Minecraft-server, der byder på lidt af hvert." />
+  <meta name="keywords" content="Voxolity, Minecraft, Server" />
+  <meta name="author" content="Tyloon1e" />
 
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <title>Minecraft - Voxolity</title>
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@Voxolity" />
-    <meta name="twitter:creator" content="@Tyloon1e" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 
-    <meta property="og:title" content="Minecraft - Voxolity" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://voxolity.com/assets/img/background/lobby-bg.png" />
-    <meta property="og:url" content="https://www.voxolity.com/minecraft" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@Voxolity" />
+  <meta name="twitter:creator" content="@Tyloon1e" />
 
-    <link rel="icon" href="/assets/img/favicon/32x32.png" sizes="32x32" type="image/png" />
-    <link rel="icon" href="/assets/img/favicon/192x192.png" sizes="192x192" type="image/png" />
-    <link rel="apple-touch-icon-precomposed" href="/assets/img/favicon/300x300.png" sizes="300x300" type="image/png" />
+  <meta property="og:title" content="Minecraft - Voxolity" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://voxolity.com/assets/img/background/lobby-bg.png" />
+  <meta property="og:url" content="https://www.voxolity.com/minecraft" />
 
-    <!-- Importing Material Icons, Materialize, Font Awesome -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="/assets/css/custom.css" />
-  </head>
-  <body>
-    <div class="progress voxolity-text">
-      <div class="indeterminate"></div>
-    </div>
+  <link rel="icon" href="/assets/img/favicon/32x32.png" sizes="32x32" type="image/png" />
+  <link rel="icon" href="/assets/img/favicon/192x192.png" sizes="192x192" type="image/png" />
+  <link rel="apple-touch-icon-precomposed" href="/assets/img/favicon/300x300.png" sizes="300x300" type="image/png" />
 
-    <header class="hidden">
-      <nav class="nav-center">
-        <div class="nav-wrapper voxolity">
-          <a class="sidenav-trigger" href="#" data-target="mobile-nav"><i class="material-icons">menu</i></a>
-          <ul class="hide-on-med-and-down">
-            <li>
-              <a class="waves-effect waves-light btn" href="index.html"><i class="material-icons left">home</i>FORSIDE</a>
-            </li>
-            <li>
-              <a class="waves-effect waves-light btn-floating pulse hoverable" href="minecraft.html"><i class="material-icons left">construction</i></a>
-            </li>
-            <li>
-              <a class="waves-effect waves-light btn" href="rules.html"><i class="material-icons left">school</i>REGLER</a>
-            </li>
-            <li>
-              <a class="waves-effect waves-light btn" href="vote.html"><i class="material-icons left">published_with_changes</i>STEM</a>
-            </li>
-            <li>
-              <a class="waves-effect waves-light btn" href="apply.html"><i class="material-icons left">list_alt</i>ANSØG</a>
-            </li>
-            <li>
-              <a class="waves-effect waves-light btn" href="staff.html"><i class="material-icons left">admin_panel_settings</i>STAFF</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <ul class="sidenav voxolity" id="mobile-nav">
-        <li>
-          <a class="waves-effect waves-light btn" href="index.html"><i class="material-icons">home</i>FORSIDE</a>
-        </li>
-        <li>
-          <a class="waves-effect waves-light btn voxolity" href="minecraft.html"><i class="material-icons">construction</i>MINECRAFT</a>
-        </li>
-        <li>
-          <a class="waves-effect waves-light btn" href="rules.html"><i class="material-icons">school</i>REGLER</a>
-        </li>
-        <li>
-          <a class="waves-effect waves-light btn" href="vote.html"><i class="material-icons">published_with_changes</i>STEM</a>
-        </li>
-        <li>
-          <a class="waves-effect waves-light btn" href="apply.html"><i class="material-icons">list_alt</i>ANSØG</a>
-        </li>
-        <li>
-          <a class="waves-effect waves-light btn" href="staff.html"><i class="material-icons">admin_panel_settings</i>STAFF</a>
-        </li>
-      </ul>
-    </header>
+  <!-- Importing Material Icons, Materialize, Font Awesome -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="/assets/css/custom.css" />
+</head>
 
-    <main class="hidden">
-      <div class="parallax-container castle-parallax top-bottom-border z-depth-1">
-        <div class="section">
-          <h1 class="white-text center">CASTLE</h1>
-        </div>
+<body>
+  <div class="progress voxolity-text">
+    <div class="indeterminate"></div>
+  </div>
 
-        <div class="section center">
-          <a class="waves-effect waves-light btn-large orange darken-2 modal-trigger hoverable" href="#castle"><i class="fab fa-readme left"></i>INFORMATION</a>
-        </div>
-        <div id="castle" class="modal">
-          <div class="modal-content">
-            <h4>CASTLE</h4>
-            <div class="divider"></div>
-            <blockquote class="voxolity-bq">Castle er vores moderne bud på den klassiske Prison Game Mode. Du starter på et skib ude ved en øde, men ganske veletableret ø; derfra handler det om overlevelse, og din kamp mod det sidste niveau: Castle.</blockquote>
-            <p class="flow-text"><i class="material-icons small">pending</i><b>/castle</b> på <span class="voxolity-text">mc.voxolity.com</span></p>
-            <div class="card-panel orange darken-2">
-              <span class="white-text"><i class="material-icons right">info</i>Vi anbefaler desuden version <b>1.16</b> på Castle.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="parallax-container survival-parallax top-bottom-border z-depth-1">
-        <div class="section">
-          <h1 class="white-text center">SURVIVAL</h1>
-        </div>
-
-        <div class="section center">
-          <a class="waves-effect waves-light btn-large orange darken-2 modal-trigger hoverable" href="#survival"><i class="fab fa-readme left"></i>INFORMATION</a>
-        </div>
-        <div id="survival" class="modal">
-          <div class="modal-content">
-            <h4>SURVIVAL</h4>
-            <div class="divider"></div>
-            <blockquote class="voxolity-bq">Vanilla - men lidt bedre! Vi har forsøgt at gøre det normale Survival mere interessant, men samtidigt med integriteten i orden. Det betyder, at du bl.a. kan konkurrere på Quest Points, og har en række redskaber tilgængelige, som gør din oplevelse bedre, sjovere og unik!</blockquote>
-            <p class="flow-text"><i class="material-icons small">pending</i><b>/smp</b> på <span class="voxolity-text">mc.voxolity.com</span></p>
-            <div class="card-panel orange darken-2">
-              <span class="white-text"><i class="material-icons right">info</i>Vi anbefaler desuden version <b>1.16</b> på Survival.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="parallax-container skyblock-parallax top-bottom-border z-depth-1">
-        <div class="section">
-          <h1 class="white-text center">SKYBLOCK</h1>
-        </div>
-
-        <div class="section center">
-          <a class="waves-effect waves-light btn-large orange darken-2 modal-trigger hoverable" href="#skyblock"><i class="fab fa-readme left"></i>INFORMATION</a>
-        </div>
-        <div id="skyblock" class="modal">
-          <div class="modal-content">
-            <h4>SKYBLOCK</h4>
-            <div class="divider"></div>
-            <blockquote class="voxolity-bq">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi dicta iusto sint molestias esse reprehenderit libero nostrum ipsum harum tenetur, neque rerum temporibus nisi eius at possimus fugit molestiae. Blanditiis?</blockquote>
-            <p class="flow-text"><i class="material-icons small">pending</i><b>/sb</b> på <span class="voxolity-text">mc.voxolity.com</span></p>
-            <div class="card-panel orange darken-2">
-              <span class="white-text"><i class="material-icons right">info</i>Vi anbefaler desuden version <b>1.16</b> på Skyblock.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="parallax-container kitpvp-parallax top-bottom-border z-depth-1">
-        <div class="section">
-          <h1 class="white-text center">KITPVP</h1>
-        </div>
-
-        <div class="section center">
-          <a class="waves-effect waves-light btn-large orange darken-2 modal-trigger hoverable" href="#kitpvp"><i class="fab fa-readme left"></i>INFORMATION</a>
-        </div>
-        <div id="kitpvp" class="modal">
-          <div class="modal-content">
-            <h4>KITPVP</h4>
-            <div class="divider"></div>
-            <blockquote class="voxolity-bq">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi dicta iusto sint molestias esse reprehenderit libero nostrum ipsum harum tenetur, neque rerum temporibus nisi eius at possimus fugit molestiae. Blanditiis?</blockquote>
-            <p class="flow-text"><i class="material-icons small">pending</i><b>/pvp</b> på <span class="voxolity-text">mc.voxolity.com</span></p>
-            <div class="card-panel orange darken-2">
-              <span class="white-text"><i class="material-icons right">info</i>Vi anbefaler desuden version <b>1.16</b> på KitPvP.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="fixed-action-btn hide-on-med-and-down">
-        <a id="discord" class="btn-floating btn-large discord hoverable">
-          <i class="fab fa-discord"></i>
-        </a>
-        <ul>
+  <header class="hidden">
+    <nav class="nav-center">
+      <div class="nav-wrapper voxolity">
+        <a class="sidenav-trigger" href="#" data-target="mobile-nav"><i class="material-icons">menu</i></a>
+        <ul class="hide-on-med-and-down">
           <li>
-            <a class="btn-floating btn-large hoverable green tooltipped" href="https://discord.voxolity.com" target="_blank" data-position="left" data-tooltip="Åbn"><i class="fas fa-external-link-square-alt"></i></a>
+            <a class="waves-effect waves-light btn" href="index.html"><i class="material-icons left">home</i>FORSIDE</a>
+          </li>
+          <li>
+            <a class="waves-effect waves-light btn-floating pulse hoverable" href="minecraft.html"><i
+                class="material-icons left">construction</i></a>
+          </li>
+          <li>
+            <a class="waves-effect waves-light btn" href="rules.html"><i
+                class="material-icons left">school</i>REGLER</a>
+          </li>
+          <li>
+            <a class="waves-effect waves-light btn" href="vote.html"><i
+                class="material-icons left">published_with_changes</i>STEM</a>
+          </li>
+          <li>
+            <a class="waves-effect waves-light btn" href="apply.html"><i
+                class="material-icons left">list_alt</i>ANSØG</a>
+          </li>
+          <li>
+            <a class="waves-effect waves-light btn" href="staff.html"><i
+                class="material-icons left">admin_panel_settings</i>STAFF</a>
           </li>
         </ul>
       </div>
-    </main>
+    </nav>
+    <ul class="sidenav voxolity" id="mobile-nav">
+      <li>
+        <a class="waves-effect waves-light btn" href="index.html"><i class="material-icons">home</i>FORSIDE</a>
+      </li>
+      <li>
+        <a class="waves-effect waves-light btn voxolity" href="minecraft.html"><i
+            class="material-icons">construction</i>MINECRAFT</a>
+      </li>
+      <li>
+        <a class="waves-effect waves-light btn" href="rules.html"><i class="material-icons">school</i>REGLER</a>
+      </li>
+      <li>
+        <a class="waves-effect waves-light btn" href="vote.html"><i
+            class="material-icons">published_with_changes</i>STEM</a>
+      </li>
+      <li>
+        <a class="waves-effect waves-light btn" href="apply.html"><i class="material-icons">list_alt</i>ANSØG</a>
+      </li>
+      <li>
+        <a class="waves-effect waves-light btn" href="staff.html"><i
+            class="material-icons">admin_panel_settings</i>STAFF</a>
+      </li>
+    </ul>
+  </header>
 
-    <footer class="page-footer voxolity hidden">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 l3">
-            <div class="section">
-              <h5 class="white-text">Sociale</h5>
-              <a class="teal-text text-darken-4" href="https://www.youtube.com/channel/UC7CI20TX39gBYeE01H2L23Q" target="_blank"><i class="fab fa-youtube-square fa-3x"></i></a>
-              <a class="teal-text text-darken-4" href="https://www.facebook.com/Voxolity" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
-              <a class="teal-text text-darken-4" href="https://twitter.com/Voxolity" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
-            </div>
-          </div>
-          <div class="col s12 l3">
-            <div class="section">
-              <h5 class="white-text">Yderligere</h5>
-              <ul>
-                <li>
-                  <a class="waves-effect waves-light btn" href="contact.html"><i class="fas fa-info-circle left"></i>KONTAKT</a>
-                </li>
-                <li>
-                  <a class="waves-effect waves-light btn" href="gallery.html"><i class="fas fa-image left"></i>GALLERI</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col s12 l6">
-            <div class="section">
-              <h5 class="white-text">Baggrund</h5>
-              <p class="grey-text text-lighten-4">
-                Alt for mange Minecraft-servere er i disse dage blive uinteressante, og gør ikke nok ud af håndværket. Det synes vi er en skam, da spillet stadig har utroligt meget potentiale. I håb om at genantænde gnisten, som mange engang havde for Minecraft, har vi derfor startet Voxolity. Vi
-                håber, at du vil give os en chance.
-              </p>
-            </div>
+  <main class="hidden">
+    <div class="parallax-container castle-parallax top-bottom-border z-depth-1">
+      <div class="section">
+        <h1 class="white-text center">CASTLE</h1>
+      </div>
+
+      <div class="section center">
+        <a class="waves-effect waves-light btn-large orange darken-2 modal-trigger hoverable" href="#castle"><i
+            class="fab fa-readme left"></i>INFORMATION</a>
+      </div>
+      <div id="castle" class="modal">
+        <div class="modal-content">
+          <h4>CASTLE</h4>
+          <div class="divider"></div>
+          <blockquote class="voxolity-bq">Castle er vores moderne bud på den klassiske Prison Game Mode. Du starter på
+            et skib ude ved en øde, men ganske veletableret ø; derfra handler det om overlevelse, og din kamp mod det
+            sidste niveau: Castle.</blockquote>
+          <p class="flow-text"><i class="material-icons small">pending</i><b>/castle</b> på <span
+              class="voxolity-text">mc.voxolity.com</span></p>
+          <div class="card-panel orange darken-2">
+            <span class="white-text"><i class="material-icons right">info</i>Vi anbefaler desuden version <b>1.16</b> på
+              Castle.</span>
           </div>
         </div>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
+    </div>
+
+    <div class="parallax-container survival-parallax top-bottom-border z-depth-1">
+      <div class="section">
+        <h1 class="white-text center">SURVIVAL</h1>
+      </div>
+
+      <div class="section center">
+        <a class="waves-effect waves-light btn-large orange darken-2 modal-trigger hoverable" href="#survival"><i
+            class="fab fa-readme left"></i>INFORMATION</a>
+      </div>
+      <div id="survival" class="modal">
+        <div class="modal-content">
+          <h4>SURVIVAL</h4>
+          <div class="divider"></div>
+          <blockquote class="voxolity-bq">Vanilla - men lidt bedre! Vi har forsøgt at gøre det normale Survival mere
+            interessant, men samtidigt med integriteten i orden. Det betyder, at du bl.a. kan konkurrere på Quest
+            Points, og har en række redskaber tilgængelige, som gør din oplevelse bedre, sjovere og unik!</blockquote>
+          <p class="flow-text"><i class="material-icons small">pending</i><b>/smp</b> på <span
+              class="voxolity-text">mc.voxolity.com</span></p>
+          <div class="card-panel orange darken-2">
+            <span class="white-text"><i class="material-icons right">info</i>Vi anbefaler desuden version <b>1.16</b> på
+              Survival.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container skyblock-parallax top-bottom-border z-depth-1">
+      <div class="section">
+        <h1 class="white-text center">SKYBLOCK</h1>
+      </div>
+
+      <div class="section center">
+        <a class="waves-effect waves-light btn-large orange darken-2 modal-trigger hoverable" href="#skyblock"><i
+            class="fab fa-readme left"></i>INFORMATION</a>
+      </div>
+      <div id="skyblock" class="modal">
+        <div class="modal-content">
+          <h4>SKYBLOCK</h4>
+          <div class="divider"></div>
+          <blockquote class="voxolity-bq">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi dicta iusto
+            sint molestias esse reprehenderit libero nostrum ipsum harum tenetur, neque rerum temporibus nisi eius at
+            possimus fugit molestiae. Blanditiis?</blockquote>
+          <p class="flow-text"><i class="material-icons small">pending</i><b>/sb</b> på <span
+              class="voxolity-text">mc.voxolity.com</span></p>
+          <div class="card-panel orange darken-2">
+            <span class="white-text"><i class="material-icons right">info</i>Vi anbefaler desuden version <b>1.16</b> på
+              Skyblock.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container kitpvp-parallax top-bottom-border z-depth-1">
+      <div class="section">
+        <h1 class="white-text center">KITPVP</h1>
+      </div>
+
+      <div class="section center">
+        <a class="waves-effect waves-light btn-large orange darken-2 modal-trigger hoverable" href="#kitpvp"><i
+            class="fab fa-readme left"></i>INFORMATION</a>
+      </div>
+      <div id="kitpvp" class="modal">
+        <div class="modal-content">
+          <h4>KITPVP</h4>
+          <div class="divider"></div>
+          <blockquote class="voxolity-bq">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi dicta iusto
+            sint molestias esse reprehenderit libero nostrum ipsum harum tenetur, neque rerum temporibus nisi eius at
+            possimus fugit molestiae. Blanditiis?</blockquote>
+          <p class="flow-text"><i class="material-icons small">pending</i><b>/pvp</b> på <span
+              class="voxolity-text">mc.voxolity.com</span></p>
+          <div class="card-panel orange darken-2">
+            <span class="white-text"><i class="material-icons right">info</i>Vi anbefaler desuden version <b>1.16</b> på
+              KitPvP.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fixed-action-btn hide-on-med-and-down">
+      <a id="discord" class="btn-floating btn-large discord hoverable">
+        <i class="fab fa-discord"></i>
+      </a>
+      <ul>
+        <li>
+          <a class="btn-floating btn-large hoverable green tooltipped" href="https://discord.voxolity.com"
+            target="_blank" data-position="left" data-tooltip="Åbn"><i class="fas fa-external-link-square-alt"></i></a>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="page-footer voxolity hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l3">
           <div class="section">
-            Copyright &copy; Voxolity 2020
-            <a class="grey-text text-lighten-4 right" href="https://shop.voxolity.com" target="_blank">shop.voxolity.com</a>
+            <h5 class="white-text">Sociale</h5>
+            <a class="teal-text text-darken-4" href="https://www.youtube.com/channel/UC7CI20TX39gBYeE01H2L23Q"
+              target="_blank"><i class="fab fa-youtube-square fa-3x"></i></a>
+            <a class="teal-text text-darken-4" href="https://www.facebook.com/Voxolity" target="_blank"><i
+                class="fab fa-facebook-square fa-3x"></i></a>
+            <a class="teal-text text-darken-4" href="https://twitter.com/Voxolity" target="_blank"><i
+                class="fab fa-twitter-square fa-3x"></i></a>
+          </div>
+        </div>
+        <div class="col s12 l3">
+          <div class="section">
+            <h5 class="white-text">Yderligere</h5>
+            <ul>
+              <li>
+                <a class="waves-effect waves-light btn" href="contact.html"><i
+                    class="fas fa-info-circle left"></i>KONTAKT</a>
+              </li>
+              <li>
+                <a class="waves-effect waves-light btn" href="gallery.html"><i class="fas fa-image left"></i>GALLERI</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col s12 l6">
+          <div class="section">
+            <h5 class="white-text">Baggrund</h5>
+            <p class="grey-text text-lighten-4">
+              Alt for mange Minecraft-servere er i disse dage blive uinteressante, og gør ikke nok ud af håndværket. Det
+              synes vi er en skam, da spillet stadig har utroligt meget potentiale. I håb om at genantænde gnisten, som
+              mange engang havde for Minecraft, har vi derfor startet Voxolity. Vi
+              håber, at du vil give os en chance.
+            </p>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="section">
+          Copyright &copy; Voxolity 2020
+          <a class="grey-text text-lighten-4 right" href="https://shop.voxolity.com"
+            target="_blank">shop.voxolity.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <!-- Importing jQuery, Materialize (JS) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q==" crossorigin="anonymous"></script>
-    <script src="/assets/js/preloader.js"></script>
-    <script src="/assets/js/custom.js"></script>
-  </body>
+  <!-- Importing jQuery, Materialize (JS) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+    integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q=="
+    crossorigin="anonymous"></script>
+  <script src="/assets/js/preloader.js"></script>
+  <script src="/assets/js/custom.js"></script>
+</body>
+
 </html>
